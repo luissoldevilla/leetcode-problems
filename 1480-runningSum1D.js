@@ -6,6 +6,8 @@ function runningSum(nums) {
 
     let index1 = nums[0]
 
+    sumArray.push(index1)
+
 }
 
 runningSum([1,2,3,4]);
