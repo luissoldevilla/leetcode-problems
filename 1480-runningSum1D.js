@@ -8,6 +8,10 @@ function runningSum(nums) {
 
     sumArray.push(index1)
 
+    for (let i = 1; i < index1.length; i++) {
+        index1 = index1 + nums[i]
+    }
+
 }
 
 runningSum([1,2,3,4]);
