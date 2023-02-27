@@ -13,6 +13,9 @@ function runningSum(nums) {
         sumArray.push(index1)
     }
 
+    console.log(sumArray)
+    return sumArray
+
 }
 
 runningSum([1,2,3,4]);
