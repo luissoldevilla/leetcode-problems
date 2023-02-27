@@ -10,6 +10,7 @@ function runningSum(nums) {
 
     for (let i = 1; i < index1.length; i++) {
         index1 = index1 + nums[i]
+        sumArray.push(index1)
     }
 
 }
