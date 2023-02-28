@@ -1,5 +1,9 @@
+// Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+
+// Return the running sum of nums.
+// This is the First Solution
 function runningSum(nums) {
-    console.log(nums)
+    // console.log(nums)
     if (nums.length==0) return []
 
     const sumArray = []
@@ -19,3 +23,18 @@ function runningSum(nums) {
 }
 
 runningSum([1,2,3,4]);
+
+// This is the second solution for the problem
+
+function runningSum2(nums) {
+    let currentSum = 0
+    for( let i = 0; i < nums.length; i++) {
+        // currentSum = currentSum + nums[i]
+        currentSum+=nums[i]
+        nums[i] = currentSum;
+    }
+    console.log(nums)
+    return nums
+}
+
+runningSum2([1,2,3,4]);
