@@ -38,3 +38,4 @@ function runningSum2(nums) {
 }
 
 runningSum2([1,2,3,4]);
+runningSum2([1,2,3,4]);
