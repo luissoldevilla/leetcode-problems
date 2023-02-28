@@ -24,6 +24,7 @@ function runningSum(nums) {
 
 runningSum([1,2,3,4]);
 
+// SECOND SOLUTION
 // This is the second solution for the problem
 
 function runningSum2(nums) {
