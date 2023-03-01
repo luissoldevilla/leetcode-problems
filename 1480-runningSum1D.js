@@ -48,3 +48,5 @@ function runningSum3(nums) {
     let currentSum = 0
     return nums.map((num) => currentSum += num)
 }
+
+runningSum3([1,2,3,4])
