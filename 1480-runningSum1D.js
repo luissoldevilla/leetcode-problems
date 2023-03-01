@@ -42,3 +42,4 @@ runningSum2([1,2,3,4]);
 runningSum2([1,2,3,4,5]);
 
 // THIRD SOLUTION
+// using .map()
