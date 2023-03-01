@@ -44,4 +44,6 @@ runningSum2([1,2,3,4,5]);
 // THIRD SOLUTION
 // using .map()
 
-function runningSum3(nums) {}
+function runningSum3(nums) {
+    let currentSum = 0
+}
