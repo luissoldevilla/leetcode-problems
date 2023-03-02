@@ -53,3 +53,4 @@ function runningSum3(nums) {
 
 runningSum3([1,2,3,4])
 runningSum3([1,2,3,4,5])
+runningSum3([1,2,3,4,8])
