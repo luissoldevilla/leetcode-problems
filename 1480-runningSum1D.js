@@ -46,7 +46,7 @@ runningSum2([1,2,3,4,5]);
 
 function runningSum3(nums) {
     let currentSum = 0
-    const mapping = nums.map((num) => currentSum = currentSum + num)
+    const mapping = nums.map((num) => currentSum += num)
     console.log(mapping)
     return mapping
 }
