@@ -1,4 +1,4 @@
-function findPivotIndex() {
+function findPivotIndex(nums) {
 
 }
 
