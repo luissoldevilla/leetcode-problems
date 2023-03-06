@@ -1,7 +1,7 @@
 function findPivotIndex(nums) {
 
     let totalSum = nums.reduce((partialSum, a) => partialSum + a, 0)
-    
+
     console.log(totalSum)
     let index1 = 0
 
@@ -11,4 +11,5 @@ function findPivotIndex(nums) {
     }
 }
 
+findPivotIndex([1,7,3,6,5,6])
 findPivotIndex([1,7,3,6,5,6])
