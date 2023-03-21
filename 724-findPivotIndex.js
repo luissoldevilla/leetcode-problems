@@ -1,3 +1,6 @@
+// Given an array of integers nums, calculate the pivot index of this array.
+
+
 function findPivotIndex(nums) {
 
     let totalSum = nums.reduce((partialSum, a) => partialSum + a, 0)
