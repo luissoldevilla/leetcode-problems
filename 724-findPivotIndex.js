@@ -14,14 +14,12 @@ function findPivotIndex(nums) {
 
     let totalSum = nums.reduce((partialSum, a) => partialSum + a, 0)
 
-    console.log(totalSum)
+    // console.log(totalSum)
 
     for(let i = 0; i < nums.length; i++) {
         let index1 = nums[i];
         let index2 = nums[i++];
         console.log(index1)
-        console.log(index2)
-        console.log(index2)
         console.log(index2)
     }
 }
