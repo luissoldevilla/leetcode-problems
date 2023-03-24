@@ -20,6 +20,7 @@ function findPivotIndex(nums) {
         let index1 = nums[i];
         let index2 = nums[i++];
         console.log(index1)
+        console.log(index2)
     }
 }
 
