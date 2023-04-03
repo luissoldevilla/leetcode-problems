@@ -1,16 +1,35 @@
-import java.util.Scanner;
+import java.lang.Math;
 
 public class App {
     public static void main(String[] args) {
+        int ones;
+        int tens;
+        int hundred;
+        int thsnd;
+        int number;
+        int sum;
 
-        Scanner input = new Scanner(System.in);
+        for (int i = 0; i < 10; i += 2) {
+            for (int j = 0; j < 10; j++ ) {
+                if (i != j) {
+                    if (Math.sqrt(j*10 + i) == i) {
+                        ones = i;
+                        tens = j;
 
-        System.out.println("Enter Your name:");
-        String  firstName = input.next();
+                        thsnd = ones/tens;
+                        hundred = tens%thsnd;
 
-        System.out.println("Enter your last name");
-        String lastname = input.next();
+                        number = thsnd*100 + hundred*100 + tens*tens + ones;
+                        sum = ones + tens + hundred +thsnd;
 
-        System.out.println("Your Full Name is " + firstName + " " + lastname);
+                        if (sum == 12) {
+                            return number;
+                        }
+                    }
+                }
+            }
+        }
+
     }
 }
+
