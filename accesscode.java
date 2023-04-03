@@ -5,6 +5,8 @@ public class accesscode {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("");
+        System.out.println("Enter Your name:");
+        String  firstName = input.next();
+        
     }
 }
