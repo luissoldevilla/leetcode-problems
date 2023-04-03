@@ -8,7 +8,9 @@ public class App {
         System.out.println("Enter Your name:");
         String  firstName = input.next();
 
-        System.out.println(firstName);
+        System.out.println("Enter your last name");
+        String lastname = input.next();
+
 
     }
 }
