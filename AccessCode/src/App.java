@@ -11,6 +11,6 @@ public class App {
         System.out.println("Enter your last name");
         String lastname = input.next();
 
-
+        System.out.println("Your Full Name is " + firstName);
     }
 }
