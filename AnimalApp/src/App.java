@@ -1,5 +1,12 @@
+
+
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+    public static void main(String[] args) {
+        Wolf charlie = new Wolf();
+
+        charlie.eat();
+        charlie.makeNoise();
+        charlie.roam();
+        charlie.sleep();
     }
 }
