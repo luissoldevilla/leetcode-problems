@@ -8,10 +8,6 @@ public class accesscode {
             String  firstName = input.next();
 
             System.out.println(firstName);
-            System.out.println(firstName);
-            System.out.println(firstName);
-            System.out.println(firstName);
-        }
 
     }
 }
