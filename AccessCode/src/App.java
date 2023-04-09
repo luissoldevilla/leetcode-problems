@@ -1,5 +1,5 @@
 
-// This is the main class
+// This is the main
 public class App {
     public static void main(String[] args) {
         int accesCode = findAccessCode();
