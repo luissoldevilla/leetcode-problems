@@ -15,6 +15,9 @@
 function find3Numbers(A, N) {
     // Traverse the array from i = 0 to N-2
     for (let i = 0; i < N - 2; i++) {
+        for (let j = 0; j < N - 1; j++) {
+            
+        }
     // If no such triplet is found, return an empty array
     }
     return [];
