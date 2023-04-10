@@ -11,3 +11,12 @@
 // 6. If no such element exists, return false.
 
 // Brute Force Solution:
+
+function find3Numbers(A, N) {
+    // Traverse the array from i = 0 to N-2
+    for (let i = 0; i < N - 2; i++) {
+    // If no such triplet is found, return an empty array
+    }
+    return [];
+  }
+  
