@@ -9,3 +9,5 @@
 // 4. Fill the R[] array from right to left, keeping track of the maximum value.
 // 5. Traverse the array A[] from left to right and check if there exists any element A[i], such that L[i] < A[i] < R[i]. If found, return true.
 // 6. If no such element exists, return false.
+
+// Brute Force Solution:
