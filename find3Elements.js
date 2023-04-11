@@ -32,4 +32,4 @@ function find3Numbers(A, N) {
 
 //   Time Complexity O(N^3)
 // Space Complexity: O(1)
-find3Numbers([],[])
+find3Numbers([1,3,4,5],[])
