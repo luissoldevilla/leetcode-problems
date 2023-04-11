@@ -21,7 +21,7 @@ function find3Numbers(A, N) {
             for (let k = j + 1; k < N; k++) {
                 // If the condition A[i] < A[j] < A[k] is satisfied, return the result
                 if (A[i] < A[j] && A[j] < A[k]) {
-                    
+                    return [A[i], A[j], A[k]];
                 }
             }
         }
@@ -29,4 +29,6 @@ function find3Numbers(A, N) {
     }
     return [];
   }
+
+//   Time Complexity O(N^3)
   
