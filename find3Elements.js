@@ -20,7 +20,9 @@ function find3Numbers(A, N) {
             // Traverse the array from k = j+1 to N
             for (let k = j + 1; k < N; k++) {
                 // If the condition A[i] < A[j] < A[k] is satisfied, return the result
-
+                if (A[i] < A[j] && A[j] < A[k]) {
+                    
+                }
             }
         }
     // If no such triplet is found, return an empty array
