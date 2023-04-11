@@ -17,7 +17,11 @@ function find3Numbers(A, N) {
     for (let i = 0; i < N - 2; i++) {
         // Traverse the array from j = i+1 to N-1
         for (let j = 0; j < N - 1; j++) {
+            // Traverse the array from k = j+1 to N
+            for (let k = j + 1; k < N; k++) {
+                // If the condition A[i] < A[j] < A[k] is satisfied, return the result
 
+            }
         }
     // If no such triplet is found, return an empty array
     }
