@@ -24,4 +24,4 @@ function findPivotIndex(nums) {
 }
 
 findPivotIndex([1,7,3,6,5,6])
-findPivotIndex([1,7,3,6,5,])
+findPivotIndex([1,7,3,6,5])
