@@ -3,5 +3,6 @@ function findPivotIndex(numeros) {
     let leftIndex = 0
     let leftIndes = 0
     let leftInde = 0
+    let leftInd = 0
 }
 findPivotIndex()
