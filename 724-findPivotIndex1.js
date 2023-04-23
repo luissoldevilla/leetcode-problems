@@ -5,3 +5,4 @@ function findPivotIndex(numeros) {
     console.log()
 }
 findPivotIndex()
+findPivotIndex()
