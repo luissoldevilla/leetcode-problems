@@ -6,3 +6,4 @@ function findPivotIndex(numeros) {
 }
 findPivotIndex()
 findPivotIndex()
+findPivotIndex()
