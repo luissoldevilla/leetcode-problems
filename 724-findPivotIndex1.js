@@ -5,7 +5,7 @@ function findPivotIndex(numeros) {
     console.log(totalSum)
 
     for(let i = 0; i < nums.length; i++){
-
+        let index = numeros[i]
     }
 }
 findPivotIndex()
