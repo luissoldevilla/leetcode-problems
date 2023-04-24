@@ -8,6 +8,7 @@ function findPivotIndex(numeros) {
         let index = numeros[i]
         let index2 = numeros[i]
         let index3 = numeros[i]
+        let index4 = numeros[i]
     }
 }
 findPivotIndex()
