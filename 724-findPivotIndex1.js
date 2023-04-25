@@ -6,6 +6,7 @@ function findPivotIndex(numeros) {
 
     for(let i = 0; i < nums.length; i++){
         let index = numeros[i]
+        let inde3 = numeros[i]
 
     }
 }
