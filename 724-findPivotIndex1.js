@@ -8,7 +8,4 @@ function findPivotIndex(numeros) {
         let index = numeros[i];
     }
 }
-findPivotIndex([1,2,3,4])
-findPivotIndex([1,2,3,4])
-findPivotIndex([1,2,3,4])
-findPivotIndex([1,2,3,4])
+findPivotIndex([1,2,3,4,5])
