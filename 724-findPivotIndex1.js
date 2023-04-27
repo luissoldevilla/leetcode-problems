@@ -10,3 +10,4 @@ function findPivotIndex(numeros) {
 }
 findPivotIndex([1,2,3,4,5])
 findPivotIndex([1,2,3,4,5])
+findPivotIndex([1,2,3,4,5])
