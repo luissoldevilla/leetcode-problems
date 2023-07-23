@@ -1,7 +1,8 @@
 // Find Pivoet points
-// Find Pivoet points
+// array was named numeros
 function findPivotIndex(numeros) {
     let totalSum = numeros.reduce((sum, a) => sum + a, 0)
+    // set up a index
     let leftIndex = 0
 
     console.log(totalSum)
