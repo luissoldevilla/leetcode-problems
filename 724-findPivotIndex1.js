@@ -7,12 +7,8 @@ function findPivotIndex(numeros) {
 
     console.log(totalSum)
 
-    for(let i = 0; i < nums.length; i++){
+    for(let i = 0; i < numeros.length; i++){
         let index = numeros[i];
     }
 }
 findPivotIndex([1,2,3,4,5])
-findPivotIndex([1,2,3,4,5])
-findPivotIndex([1,2,3,4,5])
-findPivotIndex([1,2,3,4,5])
-
