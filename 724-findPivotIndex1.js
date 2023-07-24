@@ -11,4 +11,4 @@ function findPivotIndex(numeros) {
         let index = numeros[i];
     }
 }
-findPivotIndex([1,2,3,4,5])
+console.log(findPivotIndex([1,2,3,4,5]))
